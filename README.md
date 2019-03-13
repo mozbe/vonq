@@ -1,13 +1,18 @@
-`yarn install`
+#Vonq form
 
-`yarn start`
+Simple form app with validation and edit functionality.
 
-`yarn test`
+#Setup
+`yarn install` -> `yarn start`
 
-keys just using indexes whereas id's would be preferred
+##Notes
+- No extra state management (i.e. Redux) as this is a small app  
 
-Opted for Formik for quick form implementation and easy validation
+- Polyfills are all imported (core-js) whereas in a producetion build only the required polyfills should be included  
 
-No extra state management (i.e. Redux) as very simple app
+##Tech
+* CSS Modules package *babel-plugin-react-css-modules* (handles both global CSS / CSS modules)
 
-polyfills are all imported (core-js) whereas in a producetion build only the required polyfills should be included
+* Formik for quick form implementation and easy validation
+
+* immutability-helper for state updates
