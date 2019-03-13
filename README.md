@@ -2,7 +2,7 @@
 
 Simple form app with validation and edit functionality.
 
-# Setup
+## Setup
 `yarn install` -> `yarn start`
 
 ## Notes
