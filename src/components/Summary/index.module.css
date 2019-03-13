@@ -1,0 +1,40 @@
+.summary {
+  position: relative;
+  width: 100%;
+}
+
+.summary-items {
+  padding: 10px 0;
+}
+
+.summary-item {
+  background-color: #ddd;
+  border-radius: 5px;
+  display: inline-block;
+  margin-bottom: 5px;
+  margin-right: 4px;
+  padding: 5px 10px;
+}
+
+.summary-row {
+  color: #888;
+
+  &:not(:last-of-type) {
+    margin-bottom: 10px;
+  }
+
+  strong {
+    color: #333;
+  }
+}
+
+.submit-wrap {
+  position: absolute;
+  right: 15px;
+  top: 15px;
+
+  button {
+    background-color: #6ab4e2;
+    border: 0;
+  }
+}

@@ -1,0 +1,29 @@
+.header {
+  padding-left: 36px;
+  position: relative;
+
+  p {
+    color: #888;
+  }
+}
+
+.icon {
+  align-items: center;
+  border-radius: 50%;
+  color: #fff;
+  display: flex;
+  height: 24px;
+  justify-content: center;
+  left: 0;
+  margin-right: 10px;
+  position: absolute;
+  width: 24px;
+}
+
+.icon-text {
+  background-color: #a38ae0;
+}
+
+.icon-svg {
+  display: block;
+}
